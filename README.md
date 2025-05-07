@@ -23,14 +23,14 @@ pip install -e .[math,vllm]
 
 ### quick eval on 5 MGSM samples
 cd ..
-bash crosslingual_mgsm/eval_scripts/quick_eval_s1.sh
+bash experiments/crosslingual_mgsm/eval_scripts/quick_eval_s1.sh
 ```
 
 Note that we used the modified [lm_eval_harness](https://github.com/EleutherAI/lm-evaluation-harness) from [s1 repository](https://github.com/simplescaling/s1/). We further modify it for supporting our experimental setup.
 
 
 ### Structure
-We structure our repository according to the paper sections for easier reproducibility of our findings. We also provide the output generation artifacts.
+Our experimental codes are in the `experiments/` folder. We structure our repository according to the paper sections for easier reproducibility of our findings. We also provide the output generation artifacts.
 
 - `crosslingual_mgsm`: Crosslingual test-time scaling experiments (Section 4)
 - `language_mixing`: Language-mixing experiments (Section 5)
