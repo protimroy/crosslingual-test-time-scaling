@@ -11,13 +11,28 @@
 </p>
 
 ---
-### Installation
+### Quick Start
+
+```bash
+### installation (python 3.10+)
+git clone https://github.com/BatsResearch/crosslingual-s1.git
+cd crosslingual-s1
+pip install -r requirements.txt
+cd lm-evaluation-harness
+pip install -e .[math,vllm]
+
+### quick eval on 5 MGSM samples
+cd ..
+bash crosslingual_mgsm/eval_scripts/quick_eval_s1.sh
+```
+
+Note that we used the modified [lm_eval_harness](https://github.com/EleutherAI/lm-evaluation-harness) from [s1 repository](https://github.com/simplescaling/s1/). We further modify it for supporting our experimental setup.
+
 
 ### Structure
-`crosslingual_mgsm`: Crosslingual test-time scaling experiments (Section 4)
+We structure our repository according to the paper sections for easier reproducibility of our findings. We also provide the output generation artifacts.
 
-`language_mixing`: Language-mixing experiments (Section 5)
-
-`language_forcing`: Language-forcing experiments (Section 6)
-
-`crossdomain`: Cross-domain experiments (Section 7)
+- `crosslingual_mgsm`: Crosslingual test-time scaling experiments (Section 4)
+- `language_mixing`: Language-mixing experiments (Section 5)
+- `language_forcing`: Language-forcing experiments (Section 6)
+- `crossdomain`: Cross-domain experiments (Section 7)

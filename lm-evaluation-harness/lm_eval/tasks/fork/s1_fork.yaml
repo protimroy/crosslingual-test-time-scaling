@@ -1,0 +1,19 @@
+task: s1_fork
+
+dataset_path: yongzx/FORK
+dataset_name: null
+dataset_kwargs: null
+
+training_split: null
+validation_split: null
+test_split: test
+
+doc_to_text: "{{question}}\nA. {{option_A}}\nB. {{option_B}}"
+doc_to_target: "{{answer_key}}"
+
+generation_kwargs:
+  do_sample: false
+  until:
+  - <|im_end|>
+
+metric_list: null

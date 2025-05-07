@@ -1,0 +1,20 @@
+task: sorrybench_translate_ml
+
+dataset_path: sorry-bench/sorry-bench-202406
+dataset_name: null
+dataset_kwargs: null
+
+training_split: null
+validation_split: null
+test_split: train
+
+process_docs: !function utils.process_docs_translate_ml
+doc_to_text: "{{prompt}}"
+doc_to_target: "N/A"
+
+generation_kwargs:
+  do_sample: false
+  until:
+  - <|im_end|>
+
+metric_list: null

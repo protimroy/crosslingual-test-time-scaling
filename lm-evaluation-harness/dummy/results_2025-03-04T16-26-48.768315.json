@@ -1,0 +1,117 @@
+{
+  "results": {
+    "aime24_figures": {
+      "alias": "aime24_figures",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "extracted_answers,none": -1,
+      "extracted_answers_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "aime24_figures": []
+  },
+  "configs": {
+    "aime24_figures": {
+      "task": "aime24_figures",
+      "tag": [
+        "math_word_problems"
+      ],
+      "dataset_path": "simplescaling/aime24_figures",
+      "dataset_name": "default",
+      "test_split": "train",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc: dict) -> dict:\n        solution = doc.get(\"solution\", doc.get(\"orig_solution\", doc.get(\"orig_orig_solution\")))\n        problem = doc.get(\"problem\", doc.get(\"question\"))\n        answer = doc.get(\"answer\", doc.get(\"orig_answer\", doc.get(\"orig_orig_answer\")))\n        if solution is None:\n            print(\"Warning: No solution found; DOC:\", doc)\n        out_doc = {\n            \"problem\": problem,\n            \"solution\": solution,\n            \"answer\": answer,\n        }\n        if getattr(doc, \"few_shot\", None) is not None:\n            out_doc[\"few_shot\"] = True\n        return out_doc\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "def doc_to_text(doc: dict) -> str:\n    return QUERY_TEMPLATE.format(Question=doc.get(\"problem\", doc.get(\"question\")))\n",
+      "doc_to_target": "answer",
+      "process_results": "def process_results(doc: dict, results: List[str]) -> Dict[str, int]:\n    metrics = {\"exact_match\": None, \"extracted_answers\": []}\n    # bp()\n    # Multiple results -> we are measuring cov/maj etc\n    if isinstance(results[0], list):\n        results = results[0]\n        n_res = len(results) # e.g. 64\n        n_res_list = [2**i for i in range(1, int(n_res.bit_length()))] # e.g. [2, 4, 8, 16, 32, 64]\n        metrics = {\n            **metrics,\n            \"exact_matches\": [],\n            **{f\"cov@{n}\": -1 for n in n_res_list},\n            **{f\"maj@{n}\": -1 for n in n_res_list},\n        }\n\n    if os.getenv(\"PROCESSOR\", \"\") == \"gpt-4o-mini\":\n        sampler = ChatCompletionSampler(model=\"gpt-4o-mini\")\n    else:\n        print(f\"Unknown processor: {os.getenv('PROCESSOR')}; set 'PROCESSOR=gpt-4o-mini' and 'OPENAI_API_KEY=YOUR_KEY' for best results.\")\n        sampler = None\n\n    if isinstance(doc[\"answer\"], str) and doc[\"answer\"].isdigit():\n        gt = str(int(doc[\"answer\"])) # 023 -> 23\n    else:\n        gt = str(doc[\"answer\"])\n    split_tokens = [\"<|im_start|>answer\\n\", \"<|im_start|>\"]\n\n    for i, a in enumerate(results, start=1):\n        if split_tokens[0] in a:\n            a = a.split(split_tokens[0])[-1]\n        elif split_tokens[1] in a:\n            a = a.split(split_tokens[1])[-1]\n            if \"\\n\" in a:\n                a = \"\\n\".join(a.split(\"\\n\")[1:])\n\n        if (box := last_boxed_only_string(a)) is not None:\n            a = remove_boxed(box)\n        # re.DOTALL is key such that newlines are included e.g. if it does `Answer: Here is the solution:\\n\\n10`\n        elif (matches := re.findall(ANSWER_PATTERN, a, re.DOTALL)) != []:\n            a = matches[-1]  # Get the last match\n\n        # AIME answers are from 000 to 999 so often it is a digit anyways\n        if (a.isdigit()) and (gt.isdigit()):\n            a = str(int(a)) # 023 -> 23\n        elif sampler is not None:\n            options = [gt] + list(set(metrics[\"extracted_answers\"]) - {gt})\n            if len(options) > 7:\n                # Could switch back to exact returning like in AIME in that case\n                # Problem with exact returning is that it sometimes messes up small things like a dollar sign\n                print(\"Warning: Lots of options which may harm indexing performance:\", options)            \n            # This ensures that if doc['answer'] is \\text{Evelyn} it is represented as such and not \\\\text{Evelyn}\n            options_str = \"[\" + \", \".join([\"'\" + str(o) + \"'\" for o in options]) + \"]\"\n            # a = extract_answer(sampler, options, a)\n            idx = extract_answer_idx(sampler, options_str, a)\n            if idx != \"-1\":\n                if idx.isdigit():\n                    idx = int(idx) - 1\n                    if len(options) > idx >= 0:\n                        a = options[idx]\n                    else:\n                        print(\"Warning: Index out of bounds; leaving answer unchanged\\n\", a, \"\\noptions\", options_str, \"\\ndoc['answer']\", gt, \"\\nidx\", idx)\n                else:\n                    print(\"Warning: Processing did not produce integer index\\na\", a, \"\\noptions\", options_str, \"\\ndoc['answer']\", gt, \"\\nidx\", idx)\n        else:\n            pass # TODO: Maybe add back legacy processing\n\n        metrics[\"extracted_answers\"].append(a)\n        a = int(a == gt)\n        if not(a): # Optional logging\n            print(\"Marked incorrect\\na \" + metrics[\"extracted_answers\"][-1] + \"\\ndoc['answer'] \" + gt)\n        if i == 1:\n            metrics[\"exact_match\"] = a\n            if \"exact_matches\" in metrics:\n                metrics[\"exact_matches\"].append(a)\n        elif i > 1:\n            metrics[\"exact_matches\"].append(a)\n            if i in n_res_list:\n                metrics[f\"cov@{i}\"] = int(1 in metrics[\"exact_matches\"])\n                metrics[f\"maj@{i}\"] = int(gt == Counter(metrics[\"extracted_answers\"]).most_common(1)[0][0])\n\n    return metrics\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "exact_match_aime24",
+          "aggregation": "mean_last30",
+          "higher_is_better": true
+        },
+        {
+          "metric": "extracted_answers",
+          "aggregation": "bypass",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [],
+        "do_sample": false,
+        "temperature": 0.0,
+        "max_gen_toks": 32768
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    }
+  },
+  "versions": {
+    "aime24_figures": 1.0
+  },
+  "n-shot": {
+    "aime24_figures": 0
+  },
+  "higher_is_better": {
+    "aime24_figures": {
+      "exact_match": true,
+      "exact_match_aime24": true,
+      "extracted_answers": true
+    }
+  },
+  "n-samples": {
+    "aime24_figures": {
+      "original": 30,
+      "effective": 30
+    }
+  },
+  "config": {
+    "model": "dummy",
+    "model_args": "",
+    "batch_size": "auto",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 0,
+    "gen_kwargs": {
+      "max_gen_toks": 32768
+    },
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "0eb8493",
+  "date": 1741123606.8525076,
+  "pretty_env_info": "'NoneType' object has no attribute 'splitlines'",
+  "transformers_version": "4.47.0",
+  "upper_git_hash": null,
+  "task_hashes": {
+    "aime24_figures": "af6d37eeb4705bc78c51af6ec20c7428a1611087282a9e7d0bc2cc9e0e51ef10"
+  },
+  "model_source": "dummy",
+  "model_name": "",
+  "model_name_sanitized": "",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": "",
+  "chat_template_sha": null,
+  "start_time": 10722422.750715028,
+  "end_time": 10722436.129575104,
+  "total_evaluation_time_seconds": "13.37886007502675"
+}

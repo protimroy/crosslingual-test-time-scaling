@@ -1,0 +1,8 @@
+group: sorrybench_translate
+
+task: 
+- sorrybench_translate_ml
+- sorrybench_translate_fr
+- sorrybench_translate_mr
+- sorrybench_translate_zh
+- sorrybench_translate_ta
