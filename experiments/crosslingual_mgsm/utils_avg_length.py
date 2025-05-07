@@ -33,6 +33,8 @@ for result in tqdm(data_dir.glob(f"{model_name}-mgsm*")):
                     if i >= 250: break # duplicated generation for MGSM
                     line = json.loads(line)
                     gen = line["filtered_resps"][0]
+                    if gen == "[invalid]":
+                        gen = line["resps"][0][0]
                     len_tokens += len(tokenizer(gen)['input_ids'])
                     total += 1
 
