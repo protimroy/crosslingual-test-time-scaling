@@ -11,7 +11,7 @@ Folder `eval_scripts/` contains the eval scripts for prompting baselines and s1 
 ```bash
 # full eval of s1 models on all languages of MGSM benchmark. 
 # you can change the model name and number of thinking tokens in the script.
-bash crosslingual_mgsm/eval_scripts/eval_s1.sh
+bash experiments/crosslingual_mgsmeval_scripts/eval_s1.sh
 ```
 
 

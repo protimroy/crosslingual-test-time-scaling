@@ -11,8 +11,8 @@ Folder `eval_scripts/` contains the eval scripts for (1) analyzing the dominant 
 
 ```bash
 # dominant language analysis
-python3 language_mixing/eval_scripts/eval_dominant_language.py
+python3 experiments/language_mixing/eval_scripts/eval_dominant_language.py
 
 # language mixing analysis
-python3 language_mixing/eval_scripts/eval_langmix_patterns.py
+python3 experiments/language_mixing/eval_scripts/eval_langmix_patterns.py
 ```
