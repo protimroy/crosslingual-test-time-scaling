@@ -11,7 +11,7 @@
 </p>
 
 ---
-## Quick Start
+## Getting Started
 
 ### Installation
 We used the modified [lm_eval_harness](https://github.com/EleutherAI/lm-evaluation-harness) from [s1 repository](https://github.com/simplescaling/s1/). We further modify it for supporting our evaluation setup.
@@ -24,8 +24,8 @@ cd lm-evaluation-harness
 pip install -e .[math,vllm]
 ```
 
-### Quick Test
-Here's a quick eval run on 50 Chinese MGSM samples using s1.1-3B models with 2000 maximum thinking tokens.
+### Quick Start
+Here's a quick eval run on 50 Chinese MGSM samples using s1.1-3B models with 2000 maximum thinking tokens. This should take less than 10 minutes to complete the command.
 
 See [Codes-and-Artifacts](#codes-and-artifacts) for full evaluation scripts.
 
@@ -39,6 +39,13 @@ NGPUS=4
 
 OUTPUT_FP=../outputs/${MODEL}-mgsm_direct_${LANG}_${THINKING}
 lm_eval --model vllm --model_args pretrained=simplescaling/${MODEL},dtype=bfloat16,tensor_parallel_size=${NGPUS} --tasks mgsm_direct_${LANG} --batch_size auto --apply_chat_template --output_path ${OUTPUT_FP} --log_samples --gen_kwargs max_gen_toks=32768,max_tokens_thinking=${THINKING} --limit 50
+
+# |    Tasks     |Version|     Filter      |n-shot|  Metric   |   |Value|   |Stderr|
+# |--------------|------:|-----------------|-----:|-----------|---|----:|---|------|
+# |mgsm_direct_zh|      2|flexible-extract |     0|exact_match|↑  | 0.78|±  |   N/A|
+# |              |       |remove_whitespace|     0|exact_match|↑  | 0.00|±  |   N/A|
+#
+# the MGSM accuracy is 78.0% for this subset of samples.
 ```
 
 ## Codes and Artifacts
