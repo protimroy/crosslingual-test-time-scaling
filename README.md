@@ -14,6 +14,7 @@
 ## Quick Start
 
 ### Installation
+We used the modified [lm_eval_harness](https://github.com/EleutherAI/lm-evaluation-harness) from [s1 repository](https://github.com/simplescaling/s1/). We further modify it for supporting our evaluation setup.
 ```bash
 ### installation (python 3.10+)
 git clone https://github.com/BatsResearch/crosslingual-s1.git
@@ -24,16 +25,14 @@ pip install -e .[math,vllm]
 ```
 
 ### Quick Test on 5 MGSM Samples
-We used the modified [lm_eval_harness](https://github.com/EleutherAI/lm-evaluation-harness) from [s1 repository](https://github.com/simplescaling/s1/). We further modify it for supporting our experimental setup.
+See [Codes-and-Artifacts](#codes-and-artifacts) for full evaluation scripts.
 
 ```bash
 # current dir: root (crosslingual-s1)
-
 bash experiments/crosslingual_mgsm/eval_scripts/quick_eval_s1.sh # eval on 5 MGSM examples (zh)
-# bash experiments/crosslingual_mgsm/eval_scripts/eval_s1.sh # full eval of s1
 ```
 
-## Experiment Codes
+## Codes and Artifacts
 The `experiments/` folder contains our experiment codes and artifacts of models' generations in our experiments. We structure our repository according to the paper sections.
 - `crosslingual_mgsm`: Crosslingual test-time scaling experiments (Section 4)
 - `language_mixing`: Language-mixing experiments (Section 5)
