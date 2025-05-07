@@ -1,7 +1,17 @@
 # Experiments for Crosslingual Test-Time Scaling
 
+### Artifacts
 Folder `artifacts/` contains the output artifacts from our experiments for `baselines` models and `s1` models. For `s1`, having `wait` in the folder name indicates extrapolation budget forcing; otherwise, the outputs are from truncation.
 
+### Scripts
 Folder `eval/` contains the eval scripts for prompting baselines and s1 models.
 
+```bash
+# full eval of s1 models on all languages of MGSM benchmark. 
+# you can change the model name and number of thinking tokens in the script.
+bash crosslingual_mgsm/eval_scripts/eval_s1.sh
+```
+
+
+### Misc
 We also provide several `util` scripts for extracting the average number of tokens and the accuracy results from lm-eval-harness.
