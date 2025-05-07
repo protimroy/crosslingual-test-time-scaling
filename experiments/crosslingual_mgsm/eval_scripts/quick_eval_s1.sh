@@ -6,7 +6,7 @@ cd lm-evaluation-harness/
 LANGS=(zh)
 OUTPUT_DIR=../outputs
 MODEL=s1.1-3B
-THINKING=500 # truncation: max thinking token
+THINKING=2000 # truncation: max thinking token
 
 mkdir -p $OUTPUT_DIR
 for LANG in "${LANGS[@]}"; do
