@@ -1,0 +1,17 @@
+cm_instances=168
+total_instances=250
+
+total_sents=20533
+no_cm_only_en=19634
+no_cm_native=140
+cm_intra_sents=759
+- len(sent_extract)=686
+- count_quote_think_precise=518
+- len(sent_sus)=73
+======
+Chances of an instance having CM: 0.672
+Chances of a sentence having CM: 0.03696488579360054
+Absolute count of quote-and-think: 686
+Absolute count of intersentential: 140
+Absolute count of flagged: 73
+======
