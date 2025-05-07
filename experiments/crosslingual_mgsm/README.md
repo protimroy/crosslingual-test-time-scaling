@@ -5,9 +5,9 @@ We perform crosslingual test-time scaling through budget forcing, which controls
 ### Artifacts
 Folder `artifacts/` contains the output artifacts from our experiments for `baselines` models and `s1` models. For `s1`, having `wait` in the folder name indicates extrapolation budget forcing; otherwise, the outputs are from truncation.
 
-Due to the size of the folder, these artifacts are stored on Git LFS system. You can easily download them. 
+Due to the size of the folder, these artifacts are stored on Git LFS system. You can easily download them with the following commands.
 ```bash
-git lfs install
+git lfs install # Git LFS initialized.
 git lfs pull
 ```
 
