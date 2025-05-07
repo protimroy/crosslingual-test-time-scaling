@@ -36,16 +36,17 @@ LANG=zh
 MODEL=s1.1-3B
 THINKING=2000 # truncation strategy: 2000 max thinking token
 NGPUS=4
+NSAMPLES=50
 
 OUTPUT_FP=../outputs/${MODEL}-mgsm_direct_${LANG}_${THINKING}
-lm_eval --model vllm --model_args pretrained=simplescaling/${MODEL},dtype=bfloat16,tensor_parallel_size=${NGPUS} --tasks mgsm_direct_${LANG} --batch_size auto --apply_chat_template --output_path ${OUTPUT_FP} --log_samples --gen_kwargs max_gen_toks=32768,max_tokens_thinking=${THINKING} --limit 50
+lm_eval --model vllm --model_args pretrained=simplescaling/${MODEL},dtype=bfloat16,tensor_parallel_size=${NGPUS} --tasks mgsm_direct_${LANG} --batch_size auto --apply_chat_template --output_path ${OUTPUT_FP} --log_samples --gen_kwargs max_gen_toks=32768,max_tokens_thinking=${THINKING} --limit ${NSAMPLES}
 
 # |    Tasks     |Version|     Filter      |n-shot|  Metric   |   |Value|   |Stderr|
 # |--------------|------:|-----------------|-----:|-----------|---|----:|---|------|
 # |mgsm_direct_zh|      2|flexible-extract |     0|exact_match|↑  | 0.78|±  |   N/A|
 # |              |       |remove_whitespace|     0|exact_match|↑  | 0.00|±  |   N/A|
 #
-# the MGSM accuracy is 78.0% for this subset of samples.
+# the MGSM accuracy is 78.0% for this subset of 50 samples.
 ```
 
 ## Codes and Artifacts
