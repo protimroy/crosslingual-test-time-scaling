@@ -35,9 +35,9 @@ bash experiments/crosslingual_mgsm/eval_scripts/quick_eval_s1.sh # eval on 5 MGS
 ## Codes and Artifacts
 The `experiments/` folder contains our experiment codes and artifacts of models' generations in our experiments. We structure our repository according to the paper sections.
 - [crosslingual_mgsm](https://github.com/BatsResearch/crosslingual-s1/tree/main/experiments/crosslingual_mgsm): Crosslingual test-time scaling experiments (Section 4)
-- `language_mixing`: Language-mixing experiments (Section 5)
-- `language_forcing`: Language-forcing experiments (Section 6)
-- `crossdomain`: Cross-domain experiments (Section 7)
+- [language_mixing](https://github.com/BatsResearch/crosslingual-s1/tree/main/experiments/language_mixing): Language-mixing experiments (Section 5)
+- [language_forcing](https://github.com/BatsResearch/crosslingual-s1/tree/main/experiments/language_forcing): Language-forcing experiments (Section 6)
+- [crossdomain](https://github.com/BatsResearch/crosslingual-s1/tree/main/experiments/crossdomain): Cross-domain experiments (Section 7)
 
 ## Citation
 ```
