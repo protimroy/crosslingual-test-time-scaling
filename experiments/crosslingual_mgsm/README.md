@@ -6,7 +6,7 @@ We perform crosslingual test-time scaling through budget forcing, which controls
 Folder `artifacts/` contains the output artifacts from our experiments for `baselines` models and `s1` models. For `s1`, having `wait` in the folder name indicates extrapolation budget forcing; otherwise, the outputs are from truncation.
 
 ### Scripts
-Folder `eval/` contains the eval scripts for prompting baselines and s1 models.
+Folder `eval_scripts/` contains the eval scripts for prompting baselines and s1 models.
 
 ```bash
 # full eval of s1 models on all languages of MGSM benchmark. 
