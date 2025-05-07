@@ -2,11 +2,11 @@
 import pathlib
 import json
 
-# data_dir = pathlib.Path("crosslingual-s1/crosslingual_mgsm/artifacts/baselines")
+# data_dir = pathlib.Path("crosslingual-s1/experiments/crosslingual_mgsm/artifacts/baselines")
 # artifact = "qwen2.5-14B-mgsm_direct_*_0shot"
 # model_name = "Qwen__Qwen2.5-14B-Instruct"
 
-data_dir = pathlib.Path("crosslingual-s1/crosslingual_mgsm/artifacts/s1")
+data_dir = pathlib.Path("crosslingual-s1/experiments/crosslingual_mgsm/artifacts/s1")
 artifact = "s1.1-32B-wait-mgsm_direct_*_think8000_wait1"
 model_name = "simplescaling__s1.1-32B"
 

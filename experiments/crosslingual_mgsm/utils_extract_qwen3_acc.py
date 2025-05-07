@@ -29,7 +29,7 @@ def parse_numeric(answer_str: str):
         return None
 
 
-data_dir = pathlib.Path("crosslingual-s1/crosslingual_mgsm/artifacts/baselines")
+data_dir = pathlib.Path("crosslingual-s1/experiments/crosslingual_mgsm/artifacts/baselines")
 MODEL_NAME = "qwen3_14B-mgsm_direct_*_0shot"
 
 lang2acc = {}
