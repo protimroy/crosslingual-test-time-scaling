@@ -25,7 +25,7 @@ pip install -e .[math,vllm]
 ```
 
 ### Quick Start
-Here's a quick eval run on 50 Chinese MGSM samples using s1.1-3B models with 2000 maximum thinking tokens. This should take less than 10 minutes to complete the command.
+Here's a quick eval run on 50 Chinese MGSM samples using s1.1-3B models with 2000 maximum thinking tokens. This should take less than 10 minutes to complete the command on 4 L40S GPUs.
 
 See [Codes-and-Artifacts](#codes-and-artifacts) for full evaluation scripts.
 
