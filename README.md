@@ -4,7 +4,7 @@
     <a href="https://arxiv.org/abs/xxx.xxxx"><img src="https://img.shields.io/badge/arxiv-xxx.xxxx-b31b1b?logo=arxiv" /></a>
 </p>
 
-🔥 TL;DR: We show that scaling up thinking tokens of English-centric reasoning language models, such as s1 models, can improve multilingual math reasoning performance. We also analyze how they mix languages, how different reasoning languages (controlled by our language forcing strategies) affect performance, and whether test-time reasoning scaling generalizes to new domains (such as social sciences and cultural benchmarks).
+🔥 TL;DR: We show that scaling up thinking tokens of English-centric reasoning language models, such as s1 models, can improve multilingual math reasoning performance. We also analyze the language-mixing patterns, effects of different reasoning languages (controlled by our language forcing strategies), and cross-domain generalization (from STEM to domains such as social sciences and cultural benchmarks).
 
 <p align="center">
   <img src="figures/crosslingual_mgsm.jpg" alt="Crosslingual MGSM performance" width="800"/>
