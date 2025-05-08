@@ -1,0 +1,2406 @@
+{
+  "results": {
+    "global_mmlu_bn": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_bn"
+    },
+    "global_mmlu_bn_business": {
+      "alias": " - global_mmlu_bn_business",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_bn_humanities": {
+      "alias": " - global_mmlu_bn_humanities",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_bn_medical": {
+      "alias": " - global_mmlu_bn_medical",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_bn_other": {
+      "alias": " - global_mmlu_bn_other",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_bn_social_sciences": {
+      "alias": " - global_mmlu_bn_social_sciences",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_bn_stem": {
+      "alias": " - global_mmlu_bn_stem",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_de": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_de"
+    },
+    "global_mmlu_de_business": {
+      "alias": " - global_mmlu_de_business",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_de_humanities": {
+      "alias": " - global_mmlu_de_humanities",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_de_medical": {
+      "alias": " - global_mmlu_de_medical",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_de_other": {
+      "alias": " - global_mmlu_de_other",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_de_social_sciences": {
+      "alias": " - global_mmlu_de_social_sciences",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_de_stem": {
+      "alias": " - global_mmlu_de_stem",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_en": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_en"
+    },
+    "global_mmlu_en_business": {
+      "alias": " - global_mmlu_en_business",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_en_humanities": {
+      "alias": " - global_mmlu_en_humanities",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_en_medical": {
+      "alias": " - global_mmlu_en_medical",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_en_other": {
+      "alias": " - global_mmlu_en_other",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_en_social_sciences": {
+      "alias": " - global_mmlu_en_social_sciences",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_en_stem": {
+      "alias": " - global_mmlu_en_stem",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_fr": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_fr"
+    },
+    "global_mmlu_fr_business": {
+      "alias": " - global_mmlu_fr_business",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_fr_humanities": {
+      "alias": " - global_mmlu_fr_humanities",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_fr_medical": {
+      "alias": " - global_mmlu_fr_medical",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_fr_other": {
+      "alias": " - global_mmlu_fr_other",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_fr_social_sciences": {
+      "alias": " - global_mmlu_fr_social_sciences",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_fr_stem": {
+      "alias": " - global_mmlu_fr_stem",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_ja": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_ja"
+    },
+    "global_mmlu_ja_business": {
+      "alias": " - global_mmlu_ja_business",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_ja_humanities": {
+      "alias": " - global_mmlu_ja_humanities",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_ja_medical": {
+      "alias": " - global_mmlu_ja_medical",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_ja_other": {
+      "alias": " - global_mmlu_ja_other",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_ja_social_sciences": {
+      "alias": " - global_mmlu_ja_social_sciences",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_ja_stem": {
+      "alias": " - global_mmlu_ja_stem",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_sw": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_sw"
+    },
+    "global_mmlu_sw_business": {
+      "alias": " - global_mmlu_sw_business",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_sw_humanities": {
+      "alias": " - global_mmlu_sw_humanities",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_sw_medical": {
+      "alias": " - global_mmlu_sw_medical",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_sw_other": {
+      "alias": " - global_mmlu_sw_other",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_sw_social_sciences": {
+      "alias": " - global_mmlu_sw_social_sciences",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_sw_stem": {
+      "alias": " - global_mmlu_sw_stem",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_zh": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_zh"
+    },
+    "global_mmlu_zh_business": {
+      "alias": " - global_mmlu_zh_business",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_zh_humanities": {
+      "alias": " - global_mmlu_zh_humanities",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_zh_medical": {
+      "alias": " - global_mmlu_zh_medical",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_zh_other": {
+      "alias": " - global_mmlu_zh_other",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_zh_social_sciences": {
+      "alias": " - global_mmlu_zh_social_sciences",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    },
+    "global_mmlu_zh_stem": {
+      "alias": " - global_mmlu_zh_stem",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A"
+    }
+  },
+  "groups": {
+    "global_mmlu_bn": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_bn"
+    },
+    "global_mmlu_de": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_de"
+    },
+    "global_mmlu_en": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_en"
+    },
+    "global_mmlu_fr": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_fr"
+    },
+    "global_mmlu_ja": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_ja"
+    },
+    "global_mmlu_sw": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_sw"
+    },
+    "global_mmlu_zh": {
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": "N/A",
+      "alias": "global_mmlu_zh"
+    }
+  },
+  "group_subtasks": {
+    "global_mmlu_bn": [
+      "global_mmlu_bn_business",
+      "global_mmlu_bn_humanities",
+      "global_mmlu_bn_medical",
+      "global_mmlu_bn_other",
+      "global_mmlu_bn_stem",
+      "global_mmlu_bn_social_sciences"
+    ],
+    "global_mmlu_de": [
+      "global_mmlu_de_business",
+      "global_mmlu_de_humanities",
+      "global_mmlu_de_medical",
+      "global_mmlu_de_other",
+      "global_mmlu_de_stem",
+      "global_mmlu_de_social_sciences"
+    ],
+    "global_mmlu_en": [
+      "global_mmlu_en_business",
+      "global_mmlu_en_humanities",
+      "global_mmlu_en_medical",
+      "global_mmlu_en_other",
+      "global_mmlu_en_stem",
+      "global_mmlu_en_social_sciences"
+    ],
+    "global_mmlu_fr": [
+      "global_mmlu_fr_business",
+      "global_mmlu_fr_humanities",
+      "global_mmlu_fr_medical",
+      "global_mmlu_fr_other",
+      "global_mmlu_fr_stem",
+      "global_mmlu_fr_social_sciences"
+    ],
+    "global_mmlu_ja": [
+      "global_mmlu_ja_business",
+      "global_mmlu_ja_humanities",
+      "global_mmlu_ja_medical",
+      "global_mmlu_ja_other",
+      "global_mmlu_ja_stem",
+      "global_mmlu_ja_social_sciences"
+    ],
+    "global_mmlu_sw": [
+      "global_mmlu_sw_business",
+      "global_mmlu_sw_humanities",
+      "global_mmlu_sw_medical",
+      "global_mmlu_sw_other",
+      "global_mmlu_sw_stem",
+      "global_mmlu_sw_social_sciences"
+    ],
+    "global_mmlu_zh": [
+      "global_mmlu_zh_business",
+      "global_mmlu_zh_humanities",
+      "global_mmlu_zh_medical",
+      "global_mmlu_zh_other",
+      "global_mmlu_zh_stem",
+      "global_mmlu_zh_social_sciences"
+    ]
+  },
+  "configs": {
+    "global_mmlu_bn_business": {
+      "task": "global_mmlu_bn_business",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "bn",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a546e43a0>, category='Business')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_bn_humanities": {
+      "task": "global_mmlu_bn_humanities",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "bn",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a547657e0>, category='Humanities')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_bn_medical": {
+      "task": "global_mmlu_bn_medical",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "bn",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a54765630>, category='Medical')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_bn_other": {
+      "task": "global_mmlu_bn_other",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "bn",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a547664d0>, category='Other')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_bn_social_sciences": {
+      "task": "global_mmlu_bn_social_sciences",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "bn",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2f74133a30>, category='Social Sciences')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_bn_stem": {
+      "task": "global_mmlu_bn_stem",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "bn",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a547655a0>, category='STEM')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_de_business": {
+      "task": "global_mmlu_de_business",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a546e7c70>, category='Business')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_de_humanities": {
+      "task": "global_mmlu_de_humanities",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a546e6ef0>, category='Humanities')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_de_medical": {
+      "task": "global_mmlu_de_medical",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a546e6830>, category='Medical')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_de_other": {
+      "task": "global_mmlu_de_other",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a546e40d0>, category='Other')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_de_social_sciences": {
+      "task": "global_mmlu_de_social_sciences",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a546e4e50>, category='Social Sciences')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_de_stem": {
+      "task": "global_mmlu_de_stem",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a546e5bd0>, category='STEM')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_en_business": {
+      "task": "global_mmlu_en_business",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "en",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a54613d00>, category='Business')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_en_humanities": {
+      "task": "global_mmlu_en_humanities",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "en",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a54611ab0>, category='Humanities')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_en_medical": {
+      "task": "global_mmlu_en_medical",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "en",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a54612170>, category='Medical')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_en_other": {
+      "task": "global_mmlu_en_other",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "en",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a54610d30>, category='Other')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_en_social_sciences": {
+      "task": "global_mmlu_en_social_sciences",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "en",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a546e4280>, category='Social Sciences')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_en_stem": {
+      "task": "global_mmlu_en_stem",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "en",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a546117e0>, category='STEM')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_fr_business": {
+      "task": "global_mmlu_fr_business",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "fr",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a54519870>, category='Business')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_fr_humanities": {
+      "task": "global_mmlu_fr_humanities",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "fr",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a545197e0>, category='Humanities')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_fr_medical": {
+      "task": "global_mmlu_fr_medical",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "fr",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a54519990>, category='Medical')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_fr_other": {
+      "task": "global_mmlu_fr_other",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "fr",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a545185e0>, category='Other')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_fr_social_sciences": {
+      "task": "global_mmlu_fr_social_sciences",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "fr",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a54613010>, category='Social Sciences')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_fr_stem": {
+      "task": "global_mmlu_fr_stem",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "fr",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a545196c0>, category='STEM')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_ja_business": {
+      "task": "global_mmlu_ja_business",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "ja",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a542e3490>, category='Business')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_ja_humanities": {
+      "task": "global_mmlu_ja_humanities",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "ja",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a542e1b40>, category='Humanities')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_ja_medical": {
+      "task": "global_mmlu_ja_medical",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "ja",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a542e1c60>, category='Medical')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_ja_other": {
+      "task": "global_mmlu_ja_other",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "ja",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a542e0ca0>, category='Other')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_ja_social_sciences": {
+      "task": "global_mmlu_ja_social_sciences",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "ja",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a54519d80>, category='Social Sciences')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_ja_stem": {
+      "task": "global_mmlu_ja_stem",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "ja",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a542e0b80>, category='STEM')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_sw_business": {
+      "task": "global_mmlu_sw_business",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "sw",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a3168eb90>, category='Business')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_sw_humanities": {
+      "task": "global_mmlu_sw_humanities",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "sw",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a3168de10>, category='Humanities')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_sw_medical": {
+      "task": "global_mmlu_sw_medical",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "sw",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a3168d480>, category='Medical')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_sw_other": {
+      "task": "global_mmlu_sw_other",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "sw",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a3168d7e0>, category='Other')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_sw_social_sciences": {
+      "task": "global_mmlu_sw_social_sciences",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "sw",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a542e2d40>, category='Social Sciences')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_sw_stem": {
+      "task": "global_mmlu_sw_stem",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "sw",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a3168cb80>, category='STEM')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_zh_business": {
+      "task": "global_mmlu_zh_business",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "zh",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a31685ea0>, category='Business')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_zh_humanities": {
+      "task": "global_mmlu_zh_humanities",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "zh",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a316853f0>, category='Humanities')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_zh_medical": {
+      "task": "global_mmlu_zh_medical",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "zh",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a316845e0>, category='Medical')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_zh_other": {
+      "task": "global_mmlu_zh_other",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "zh",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a31684790>, category='Other')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_zh_social_sciences": {
+      "task": "global_mmlu_zh_social_sciences",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "zh",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a3168f2e0>, category='Social Sciences')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "global_mmlu_zh_stem": {
+      "task": "global_mmlu_zh_stem",
+      "dataset_path": "CohereForAI/Global-MMLU-Lite",
+      "dataset_name": "zh",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7f2a3168fbe0>, category='STEM')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "max_gen_toks": 32768,
+        "max_tokens_thinking": 2000
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    }
+  },
+  "versions": {
+    "global_mmlu_bn": 0.0,
+    "global_mmlu_bn_business": 0.0,
+    "global_mmlu_bn_humanities": 0.0,
+    "global_mmlu_bn_medical": 0.0,
+    "global_mmlu_bn_other": 0.0,
+    "global_mmlu_bn_social_sciences": 0.0,
+    "global_mmlu_bn_stem": 0.0,
+    "global_mmlu_de": 0.0,
+    "global_mmlu_de_business": 0.0,
+    "global_mmlu_de_humanities": 0.0,
+    "global_mmlu_de_medical": 0.0,
+    "global_mmlu_de_other": 0.0,
+    "global_mmlu_de_social_sciences": 0.0,
+    "global_mmlu_de_stem": 0.0,
+    "global_mmlu_en": 0.0,
+    "global_mmlu_en_business": 0.0,
+    "global_mmlu_en_humanities": 0.0,
+    "global_mmlu_en_medical": 0.0,
+    "global_mmlu_en_other": 0.0,
+    "global_mmlu_en_social_sciences": 0.0,
+    "global_mmlu_en_stem": 0.0,
+    "global_mmlu_fr": 0.0,
+    "global_mmlu_fr_business": 0.0,
+    "global_mmlu_fr_humanities": 0.0,
+    "global_mmlu_fr_medical": 0.0,
+    "global_mmlu_fr_other": 0.0,
+    "global_mmlu_fr_social_sciences": 0.0,
+    "global_mmlu_fr_stem": 0.0,
+    "global_mmlu_ja": 0.0,
+    "global_mmlu_ja_business": 0.0,
+    "global_mmlu_ja_humanities": 0.0,
+    "global_mmlu_ja_medical": 0.0,
+    "global_mmlu_ja_other": 0.0,
+    "global_mmlu_ja_social_sciences": 0.0,
+    "global_mmlu_ja_stem": 0.0,
+    "global_mmlu_sw": 0.0,
+    "global_mmlu_sw_business": 0.0,
+    "global_mmlu_sw_humanities": 0.0,
+    "global_mmlu_sw_medical": 0.0,
+    "global_mmlu_sw_other": 0.0,
+    "global_mmlu_sw_social_sciences": 0.0,
+    "global_mmlu_sw_stem": 0.0,
+    "global_mmlu_zh": 0.0,
+    "global_mmlu_zh_business": 0.0,
+    "global_mmlu_zh_humanities": 0.0,
+    "global_mmlu_zh_medical": 0.0,
+    "global_mmlu_zh_other": 0.0,
+    "global_mmlu_zh_social_sciences": 0.0,
+    "global_mmlu_zh_stem": 0.0
+  },
+  "n-shot": {
+    "global_mmlu_bn_business": 0,
+    "global_mmlu_bn_humanities": 0,
+    "global_mmlu_bn_medical": 0,
+    "global_mmlu_bn_other": 0,
+    "global_mmlu_bn_social_sciences": 0,
+    "global_mmlu_bn_stem": 0,
+    "global_mmlu_de_business": 0,
+    "global_mmlu_de_humanities": 0,
+    "global_mmlu_de_medical": 0,
+    "global_mmlu_de_other": 0,
+    "global_mmlu_de_social_sciences": 0,
+    "global_mmlu_de_stem": 0,
+    "global_mmlu_en_business": 0,
+    "global_mmlu_en_humanities": 0,
+    "global_mmlu_en_medical": 0,
+    "global_mmlu_en_other": 0,
+    "global_mmlu_en_social_sciences": 0,
+    "global_mmlu_en_stem": 0,
+    "global_mmlu_fr_business": 0,
+    "global_mmlu_fr_humanities": 0,
+    "global_mmlu_fr_medical": 0,
+    "global_mmlu_fr_other": 0,
+    "global_mmlu_fr_social_sciences": 0,
+    "global_mmlu_fr_stem": 0,
+    "global_mmlu_ja_business": 0,
+    "global_mmlu_ja_humanities": 0,
+    "global_mmlu_ja_medical": 0,
+    "global_mmlu_ja_other": 0,
+    "global_mmlu_ja_social_sciences": 0,
+    "global_mmlu_ja_stem": 0,
+    "global_mmlu_sw_business": 0,
+    "global_mmlu_sw_humanities": 0,
+    "global_mmlu_sw_medical": 0,
+    "global_mmlu_sw_other": 0,
+    "global_mmlu_sw_social_sciences": 0,
+    "global_mmlu_sw_stem": 0,
+    "global_mmlu_zh_business": 0,
+    "global_mmlu_zh_humanities": 0,
+    "global_mmlu_zh_medical": 0,
+    "global_mmlu_zh_other": 0,
+    "global_mmlu_zh_social_sciences": 0,
+    "global_mmlu_zh_stem": 0
+  },
+  "higher_is_better": {
+    "global_mmlu_bn": {
+      "exact_match": true
+    },
+    "global_mmlu_bn_business": {
+      "exact_match": true
+    },
+    "global_mmlu_bn_humanities": {
+      "exact_match": true
+    },
+    "global_mmlu_bn_medical": {
+      "exact_match": true
+    },
+    "global_mmlu_bn_other": {
+      "exact_match": true
+    },
+    "global_mmlu_bn_social_sciences": {
+      "exact_match": true
+    },
+    "global_mmlu_bn_stem": {
+      "exact_match": true
+    },
+    "global_mmlu_de": {
+      "exact_match": true
+    },
+    "global_mmlu_de_business": {
+      "exact_match": true
+    },
+    "global_mmlu_de_humanities": {
+      "exact_match": true
+    },
+    "global_mmlu_de_medical": {
+      "exact_match": true
+    },
+    "global_mmlu_de_other": {
+      "exact_match": true
+    },
+    "global_mmlu_de_social_sciences": {
+      "exact_match": true
+    },
+    "global_mmlu_de_stem": {
+      "exact_match": true
+    },
+    "global_mmlu_en": {
+      "exact_match": true
+    },
+    "global_mmlu_en_business": {
+      "exact_match": true
+    },
+    "global_mmlu_en_humanities": {
+      "exact_match": true
+    },
+    "global_mmlu_en_medical": {
+      "exact_match": true
+    },
+    "global_mmlu_en_other": {
+      "exact_match": true
+    },
+    "global_mmlu_en_social_sciences": {
+      "exact_match": true
+    },
+    "global_mmlu_en_stem": {
+      "exact_match": true
+    },
+    "global_mmlu_fr": {
+      "exact_match": true
+    },
+    "global_mmlu_fr_business": {
+      "exact_match": true
+    },
+    "global_mmlu_fr_humanities": {
+      "exact_match": true
+    },
+    "global_mmlu_fr_medical": {
+      "exact_match": true
+    },
+    "global_mmlu_fr_other": {
+      "exact_match": true
+    },
+    "global_mmlu_fr_social_sciences": {
+      "exact_match": true
+    },
+    "global_mmlu_fr_stem": {
+      "exact_match": true
+    },
+    "global_mmlu_ja": {
+      "exact_match": true
+    },
+    "global_mmlu_ja_business": {
+      "exact_match": true
+    },
+    "global_mmlu_ja_humanities": {
+      "exact_match": true
+    },
+    "global_mmlu_ja_medical": {
+      "exact_match": true
+    },
+    "global_mmlu_ja_other": {
+      "exact_match": true
+    },
+    "global_mmlu_ja_social_sciences": {
+      "exact_match": true
+    },
+    "global_mmlu_ja_stem": {
+      "exact_match": true
+    },
+    "global_mmlu_sw": {
+      "exact_match": true
+    },
+    "global_mmlu_sw_business": {
+      "exact_match": true
+    },
+    "global_mmlu_sw_humanities": {
+      "exact_match": true
+    },
+    "global_mmlu_sw_medical": {
+      "exact_match": true
+    },
+    "global_mmlu_sw_other": {
+      "exact_match": true
+    },
+    "global_mmlu_sw_social_sciences": {
+      "exact_match": true
+    },
+    "global_mmlu_sw_stem": {
+      "exact_match": true
+    },
+    "global_mmlu_zh": {
+      "exact_match": true
+    },
+    "global_mmlu_zh_business": {
+      "exact_match": true
+    },
+    "global_mmlu_zh_humanities": {
+      "exact_match": true
+    },
+    "global_mmlu_zh_medical": {
+      "exact_match": true
+    },
+    "global_mmlu_zh_other": {
+      "exact_match": true
+    },
+    "global_mmlu_zh_social_sciences": {
+      "exact_match": true
+    },
+    "global_mmlu_zh_stem": {
+      "exact_match": true
+    }
+  },
+  "n-samples": {
+    "global_mmlu_zh_business": {
+      "original": 58,
+      "effective": 58
+    },
+    "global_mmlu_zh_humanities": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_zh_medical": {
+      "original": 36,
+      "effective": 36
+    },
+    "global_mmlu_zh_other": {
+      "original": 56,
+      "effective": 56
+    },
+    "global_mmlu_zh_stem": {
+      "original": 46,
+      "effective": 46
+    },
+    "global_mmlu_zh_social_sciences": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_sw_business": {
+      "original": 58,
+      "effective": 58
+    },
+    "global_mmlu_sw_humanities": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_sw_medical": {
+      "original": 36,
+      "effective": 36
+    },
+    "global_mmlu_sw_other": {
+      "original": 56,
+      "effective": 56
+    },
+    "global_mmlu_sw_stem": {
+      "original": 46,
+      "effective": 46
+    },
+    "global_mmlu_sw_social_sciences": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_ja_business": {
+      "original": 58,
+      "effective": 58
+    },
+    "global_mmlu_ja_humanities": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_ja_medical": {
+      "original": 36,
+      "effective": 36
+    },
+    "global_mmlu_ja_other": {
+      "original": 56,
+      "effective": 56
+    },
+    "global_mmlu_ja_stem": {
+      "original": 46,
+      "effective": 46
+    },
+    "global_mmlu_ja_social_sciences": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_fr_business": {
+      "original": 58,
+      "effective": 58
+    },
+    "global_mmlu_fr_humanities": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_fr_medical": {
+      "original": 36,
+      "effective": 36
+    },
+    "global_mmlu_fr_other": {
+      "original": 56,
+      "effective": 56
+    },
+    "global_mmlu_fr_stem": {
+      "original": 46,
+      "effective": 46
+    },
+    "global_mmlu_fr_social_sciences": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_en_business": {
+      "original": 58,
+      "effective": 58
+    },
+    "global_mmlu_en_humanities": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_en_medical": {
+      "original": 36,
+      "effective": 36
+    },
+    "global_mmlu_en_other": {
+      "original": 56,
+      "effective": 56
+    },
+    "global_mmlu_en_stem": {
+      "original": 46,
+      "effective": 46
+    },
+    "global_mmlu_en_social_sciences": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_de_business": {
+      "original": 58,
+      "effective": 58
+    },
+    "global_mmlu_de_humanities": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_de_medical": {
+      "original": 36,
+      "effective": 36
+    },
+    "global_mmlu_de_other": {
+      "original": 56,
+      "effective": 56
+    },
+    "global_mmlu_de_stem": {
+      "original": 46,
+      "effective": 46
+    },
+    "global_mmlu_de_social_sciences": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_bn_business": {
+      "original": 58,
+      "effective": 58
+    },
+    "global_mmlu_bn_humanities": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_bn_medical": {
+      "original": 36,
+      "effective": 36
+    },
+    "global_mmlu_bn_other": {
+      "original": 56,
+      "effective": 56
+    },
+    "global_mmlu_bn_stem": {
+      "original": 46,
+      "effective": 46
+    },
+    "global_mmlu_bn_social_sciences": {
+      "original": 102,
+      "effective": 102
+    }
+  },
+  "config": {
+    "model": "vllm",
+    "model_args": "pretrained=/users/rzhang73/superlab/models/models--simplescaling--s1.1-32B_weights,dtype=bfloat16,tensor_parallel_size=8",
+    "batch_size": "auto",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 0,
+    "gen_kwargs": {
+      "max_gen_toks": 32768,
+      "max_tokens_thinking": 2000
+    },
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "bbb6b50",
+  "date": 1741903140.8859684,
+  "pretty_env_info": "PyTorch version: 2.5.1+cu124\nIs debug build: False\nCUDA used to build PyTorch: 12.4\nROCM used to build PyTorch: N/A\n\nOS: Red Hat Enterprise Linux 9.2 (Plow) (x86_64)\nGCC version: (GCC) 11.3.1 20221121 (Red Hat 11.3.1-4)\nClang version: Could not collect\nCMake version: version 3.20.2\nLibc version: glibc-2.34\n\nPython version: 3.10.16 | packaged by conda-forge | (main, Dec  5 2024, 14:16:10) [GCC 13.3.0] (64-bit runtime)\nPython platform: Linux-5.14.0-284.11.1.el9_2_cifs.x86_64-x86_64-with-glibc2.34\nIs CUDA available: True\nCUDA runtime version: Could not collect\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A100-SXM4-80GB\nGPU 1: NVIDIA A100-SXM4-80GB\nGPU 2: NVIDIA A100-SXM4-80GB\nGPU 3: NVIDIA A100-SXM4-80GB\nGPU 4: NVIDIA A100-SXM4-80GB\nGPU 5: NVIDIA A100-SXM4-80GB\nGPU 6: NVIDIA A100-SXM4-80GB\nGPU 7: NVIDIA A100-SXM4-80GB\n\nNvidia driver version: 535.129.03\ncuDNN version: Could not collect\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                    x86_64\nCPU op-mode(s):                  32-bit, 64-bit\nAddress sizes:                   48 bits physical, 48 bits virtual\nByte Order:                      Little Endian\nCPU(s):                          128\nOn-line CPU(s) list:             0-127\nVendor ID:                       AuthenticAMD\nModel name:                      AMD EPYC 7763 64-Core Processor\nCPU family:                      25\nModel:                           1\nThread(s) per core:              1\nCore(s) per socket:              64\nSocket(s):                       2\nStepping:                        1\nFrequency boost:                 enabled\nCPU max MHz:                     3529.0520\nCPU min MHz:                     1500.0000\nBogoMIPS:                        4900.17\nFlags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin brs arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm\nVirtualization:                  AMD-V\nL1d cache:                       4 MiB (128 instances)\nL1i cache:                       4 MiB (128 instances)\nL2 cache:                        64 MiB (128 instances)\nL3 cache:                        512 MiB (16 instances)\nNUMA node(s):                    2\nNUMA node0 CPU(s):               0-63\nNUMA node1 CPU(s):               64-127\nVulnerability Itlb multihit:     Not affected\nVulnerability L1tf:              Not affected\nVulnerability Mds:               Not affected\nVulnerability Meltdown:          Not affected\nVulnerability Mmio stale data:   Not affected\nVulnerability Retbleed:          Not affected\nVulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:        Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP disabled, RSB filling, PBRSB-eIBRS Not affected\nVulnerability Srbds:             Not affected\nVulnerability Tsx async abort:   Not affected\n\nVersions of relevant libraries:\n[pip3] numpy==1.26.4\n[pip3] torch==2.5.1\n[pip3] torchaudio==2.5.1\n[pip3] torchvision==0.20.1\n[pip3] triton==3.1.0\n[conda] Could not collect",
+  "transformers_version": "4.46.1",
+  "upper_git_hash": "bbb6b50138cbd07dd818cce0060eedafebdbd8fd",
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "151643"
+  ],
+  "tokenizer_eos_token": [
+    "<|im_end|>",
+    "151645"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 151645,
+  "max_length": 32768,
+  "task_hashes": {
+    "global_mmlu_zh_business": "f0aa69243f51bbd6562cbc283537925d9a90b2217853b1b023f703db63b3fb59",
+    "global_mmlu_zh_humanities": "a34c7878027a00287d11d8ff7384a2fc379b69f3e1117267e55f566e04427982",
+    "global_mmlu_zh_medical": "cf2b65953bf323e34f31acf79f26e7a0818c661c64216668b63dece63d6abc91",
+    "global_mmlu_zh_other": "8591889aaaaa14df36ddf603bd0eed3ec80c5aee5bc39d53a3c14ecc349d6b54",
+    "global_mmlu_zh_stem": "acd385dba0d2062dadfc078a0d9c223babce76020ad49f9446cc942348596788",
+    "global_mmlu_zh_social_sciences": "b6e3b971e1d2e4ce77bc8624b8f61c4e35f717108af6ba5089cd92a6e5ea2e64",
+    "global_mmlu_sw_business": "8db5d10a15f415d15f43d28ac43bc20bc56f938bc206952db3cca38cd2f15bb5",
+    "global_mmlu_sw_humanities": "6454f02d5445deba48c33dc5edb9b1f99464a248c14dcc387dc702bb035c1e07",
+    "global_mmlu_sw_medical": "dde2356f0cda4cfe5eadf278bb0001603e5e8fbb6d84793063756c5f72e27689",
+    "global_mmlu_sw_other": "6134e5e69a3e9c228269155ad60fa7f64e194cc5e09924eecfc8d63163050905",
+    "global_mmlu_sw_stem": "54443ab234b9a561d33c7b695d5af9f619181238737b5de9ca09773a5e8d80f1",
+    "global_mmlu_sw_social_sciences": "3bf9c318447f225c5374a3b8890f70a604c8707032265fb6e2a1d2d6b8d5ec9f",
+    "global_mmlu_ja_business": "f5c84535493702dafbf2b8d6f15aef2e0c253fad9226fe86f533e12c1fc9578a",
+    "global_mmlu_ja_humanities": "ca203d7687d95282260a6ce51165b4483beae7fdd11afa3e7d25b88f9a67109b",
+    "global_mmlu_ja_medical": "8b3226cd1e270950e7871dbb5702c8cf6ece27b1eae770f333215319d8364c7e",
+    "global_mmlu_ja_other": "f8905a395bc0a3c7d906092ff31bd0d665e288514fe0fee5ca0593befd7c6b68",
+    "global_mmlu_ja_stem": "c7d6e560c5a80b79eb10f76445079a7415a1d3dbbd018d39e8e89e991da1a41f",
+    "global_mmlu_ja_social_sciences": "e9b697a8c94b5c82efa1113e77fdf62c86e6ace849b2737424436a9907e87a37",
+    "global_mmlu_fr_business": "256b272103138de0cbf0feee734950f6512d9a93d324606298021c4037103cb2",
+    "global_mmlu_fr_humanities": "0c373ec9600af3161f0699b885c1dc4686d2327955086abd403a65cf27641aed",
+    "global_mmlu_fr_medical": "91726435637206647026d4cf66d006f39bff01c2520889a0cc322259201b38e3",
+    "global_mmlu_fr_other": "4ecc97dcec294f63c3f7d7cf61036472140d4d8148a5da313c438a1526a585a6",
+    "global_mmlu_fr_stem": "5ee2964fa1ff1ebb5977fb89c713a0a8a40e19caa778829aa8e1d6d8283151dc",
+    "global_mmlu_fr_social_sciences": "eebd1660c22fe1670d56a700846035fd1708b57c620c2ed401a7eeccfa4a4222",
+    "global_mmlu_en_business": "01ad01ffc9273ea9a77c4a68a6a0e583816829cd210db7c9a5e1a4c658c481d2",
+    "global_mmlu_en_humanities": "8d29c3bda67691fbba3d30ae6c1c0b93f3f2947a0ae9d583911912ab33a064ed",
+    "global_mmlu_en_medical": "4d8ae0cd1b7881a8216c25f7033a94ed8758eaa423a9c730756cc969b68ba5a8",
+    "global_mmlu_en_other": "a7db7ecd6be8d4973e4aa1d08bf3acf013d37311bb450fe73d9875f7c37b90df",
+    "global_mmlu_en_stem": "7c8f6ed4b6ef8a490e245016d7f15ad66eac5ddb5a772bc5717bbfcc60ac4ca5",
+    "global_mmlu_en_social_sciences": "fc8a7d13f9cd0eaacb0476f5c7a714f6253f27639e7cbc611e6d85f3621f5458",
+    "global_mmlu_de_business": "ea6bcd4c44f6f389e68a7244d70a767437ce96db7f91e9d039db2ee437baa150",
+    "global_mmlu_de_humanities": "0c34ed711f9ed9e5a1b97ddc005482917a507e8e6c7da848ee3f8f72a716b1b7",
+    "global_mmlu_de_medical": "c1398d05d71f52252a82d49c6f0d9033f1d00cdeb7064facdce3caf3a0bee9c2",
+    "global_mmlu_de_other": "5776f534ebdc8887c3bae20e279921399cd51089264a8e3604c2a8ba7357227e",
+    "global_mmlu_de_stem": "d0cc75483abdda5b03787c4fc03bd54b3d0fe4b7c69af2840ea97fe22e72e1a5",
+    "global_mmlu_de_social_sciences": "db3ef42340b5e4c2d304b0cb412b6bd6a7b75e8ab4138a3021aeb0cf25786bf8",
+    "global_mmlu_bn_business": "d0c03f33d434d17ca9509844f4c86c53e0f6fc78e5caaf37c0d40a110cf6d960",
+    "global_mmlu_bn_humanities": "05246f57b825d82636c8262fa0a2a6c3ce74b2310af888ef5b29f71ad68f8e0d",
+    "global_mmlu_bn_medical": "f9dc50c0fbbc962adad81ab497dea3d039fedae27ee1b895326f5c27bfbf6367",
+    "global_mmlu_bn_other": "2937907f909657b899ac674f3e148b41c16eb48d41552f0c087b7b5b6f993fdb",
+    "global_mmlu_bn_stem": "7446e108c2c5b8b0a6d446f2ee4266b1b105ea15aa7ccee19c7c5e184ec26d70",
+    "global_mmlu_bn_social_sciences": "1d2ecd9909a754ea54c57c701b430bf485f0a217f1f2cf4bb7fae75ea224b0b8"
+  },
+  "model_source": "vllm",
+  "model_name": "/users/rzhang73/superlab/models/models--simplescaling--s1.1-32B_weights",
+  "model_name_sanitized": "__users__rzhang73__superlab__models__models--simplescaling--s1.1-32B_weights",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] }}\n    {%- else %}\n        {{- 'You are Qwen, created by Alibaba Cloud. You are a helpful assistant.' }}\n    {%- endif %}\n    {{- \"\\n\\n# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0]['content'] + '<|im_end|>\\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and not message.tool_calls) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role }}\n        {%- if message.content %}\n            {{- '\\n' + message.content }}\n        {%- endif %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '\\n<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}\n",
+  "chat_template_sha": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "start_time": 12445695.682466254,
+  "end_time": 12448081.296340112,
+  "total_evaluation_time_seconds": "2385.613873858005"
+}
