@@ -11,7 +11,7 @@ parser.add_argument('--model_name', type=str, default="gemma3_12B", help='Name o
 parser.add_argument('--tokenizer_name', type=str, default="google/gemma-3-12b-it", help='Name of the tokenizer to use')
 parser.add_argument('--output_dir', type=str, default="../data/processed/011-pareto", 
                     help='Directory to save analysis results')
-parser.add_argument('--data_dir', type=str, default="crosslingual-s1/experiments/crosslingual_mgsm/artifacts/baselines",
+parser.add_argument('--data_dir', type=str, default="crosslingual-test-time-scaling/experiments/crosslingual_mgsm/artifacts/baselines",
                     help='Directory containing model outputs')
 
 args = parser.parse_args()

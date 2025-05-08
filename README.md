@@ -17,8 +17,10 @@
 We used the modified [lm_eval_harness](https://github.com/EleutherAI/lm-evaluation-harness) from [s1 repository](https://github.com/simplescaling/s1/). We further modify it for supporting our evaluation setup.
 ```bash
 ### installation (python 3.10+)
-git clone https://github.com/BatsResearch/crosslingual-s1.git
-cd crosslingual-s1
+git lfs # check that you have git lfs installed before cloning the repo
+
+git clone https://github.com/BatsResearch/crosslingual-test-time-scaling.git
+cd crosslingual-test-time-scaling
 pip install -r requirements.txt
 cd lm-evaluation-harness
 pip install -e .[math,vllm]
@@ -51,10 +53,10 @@ lm_eval --model vllm --model_args pretrained=simplescaling/${MODEL},dtype=bfloat
 
 ## Codes and Artifacts
 The `experiments/` folder contains our experiment **codes** and **artifacts** of models' generations in our experiments. We structure our repository according to the paper sections.
-- [crosslingual_mgsm](https://github.com/BatsResearch/crosslingual-s1/tree/main/experiments/crosslingual_mgsm): Crosslingual test-time scaling experiments (Section 4)
-- [language_mixing](https://github.com/BatsResearch/crosslingual-s1/tree/main/experiments/language_mixing): Language-mixing experiments (Section 5)
-- [language_forcing](https://github.com/BatsResearch/crosslingual-s1/tree/main/experiments/language_forcing): Language-forcing experiments (Section 6)
-- [crossdomain](https://github.com/BatsResearch/crosslingual-s1/tree/main/experiments/crossdomain): Cross-domain experiments (Section 7)
+- [crosslingual_mgsm](https://github.com/BatsResearch/crosslingual-test-time-scaling/tree/main/experiments/crosslingual_mgsm): Crosslingual test-time scaling experiments (Section 4)
+- [language_mixing](https://github.com/BatsResearch/crosslingual-test-time-scaling/tree/main/experiments/language_mixing): Language-mixing experiments (Section 5)
+- [language_forcing](https://github.com/BatsResearch/crosslingual-test-time-scaling/tree/main/experiments/language_forcing): Language-forcing experiments (Section 6)
+- [crossdomain](https://github.com/BatsResearch/crosslingual-test-time-scaling/tree/main/experiments/crossdomain): Cross-domain experiments (Section 7)
 
 
 ## Citation
