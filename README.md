@@ -1,7 +1,7 @@
 # Crosslingual Reasoning through Test-Time Scaling
 
 <p align="center">
-    <a href="https://arxiv.org/abs/xxx.xxxx"><img src="https://img.shields.io/badge/arxiv-xxx.xxxx-b31b1b?logo=arxiv" /></a>
+    <a href="https://arxiv.org/abs/2505.05408"><img src="https://img.shields.io/badge/arxiv-2505.05408-b31b1b?logo=arxiv" /></a>
 </p>
 
 🔥 TL;DR: We show that scaling up thinking tokens of English-centric reasoning language models, such as s1 models, can improve multilingual math reasoning performance. We also analyze the language-mixing patterns, effects of different reasoning languages (controlled by our language forcing strategies), and cross-domain generalization (from STEM to domains such as social sciences and cultural benchmarks).
@@ -61,5 +61,11 @@ The `experiments/` folder contains our experiment **codes** and **artifacts** of
 
 ## Citation
 ```
-add bibtex
+@article{yong2025crosslingual-test-time-scaling,
+  title={Crosslingual Reasoning through Test-Time Scaling}, 
+  author={Zheng-Xin Yong and M. Farid Adilazuarda and Jonibek Mansurov and Ruochen Zhang and Niklas Muennighoff and Carsten Eickhoff and Genta Indra Winata and Julia Kreutzer and Stephen H. Bach and Alham Fikri Aji},
+  year={2025},
+  journal={arxiv preprint},
+  eprint={2505.05408},
+}
 ```
