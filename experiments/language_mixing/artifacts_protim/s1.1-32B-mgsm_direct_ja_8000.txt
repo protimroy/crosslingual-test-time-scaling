@@ -1,0 +1,23 @@
+cm_instances=153
+total_instances=250
+
+total_sents=23292
+no_cm_only_en=22549
+no_cm_native=144
+cm_intra_sents=599
+- len(sent_extract)=549
+- count_quote_think_precise=407
+- len(sent_sus)=50
+======
+Chances of an instance having CM: 0.612
+Chances of a sentence having CM: 0.026
+Absolute count of quote-and-think: 549
+Absolute count of intersentential: 144
+Absolute count of flagged: 50
+======
+Self-correction instances: 250
+Avg self-correction score: 13.650
+======
+Translate-and-Think explicit: 147
+Translate-and-Think silent: 250
+Total TaT: 397
