@@ -23,7 +23,7 @@ parser.add_argument(
 parser.add_argument(
     '--output_dir',
     type=str,
-    default="experiments/language_mixing/artifacts/",
+    default="experiments/language_mixing/artifacts_protim/",
     help='Directory to save analysis results',
 )
 parser.add_argument(
